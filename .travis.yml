@@ -19,10 +19,10 @@ jobs:
 
       deploy:
         - provider: script
-        skip_cleanup: true
-        script: sh ${TRAVIS_BUILD_DIR}/travis/test_template-svce.sh
-        on:
-          branch: develop
+          skip_cleanup: true
+          script: sh ${TRAVIS_BUILD_DIR}/travis/test_template-svce.sh
+          on:
+            branch: develop
 
 import:
   - docs/.travis.yml
