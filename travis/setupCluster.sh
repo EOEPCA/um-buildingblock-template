@@ -1,3 +1,8 @@
+#!/bin/bash -x
+
+# fail fast settings from https://dougrichardson.org/2018/08/03/fail-fast-bash-scripting.html
+set -euov pipefail
+
 # Install minikube and kubectl
 K8S_VER=v1.12.0
 TF_VER=0.12.16
