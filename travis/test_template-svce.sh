@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# fail fast settings from https://dougrichardson.org/2018/08/03/fail-fast-bash-scripting.html
-# set -euov pipefail
-# Not supported in travis (xenial)
-# shopt -s inherit_errexit
-
 # Check presence of environment variables
 TRAVIS_BUILD_DIR="${TRAVIS_BUILD_DIR:-.}"
 
