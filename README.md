@@ -40,7 +40,11 @@
   </p>
 </p>
 
-<!-- TABLE OF CONTENTS -->
+## Setup for this template
+- Replace all "um-buildingblock-template" in readme with your repository's name
+- Edit docs to fit your repository
+- Un-comment the "notifications" segment in .travis.yml, and input the correct data for slack and/or emails you want to notify
+- Edit readme to fit your repository, and delete this part!
 
 ## Table of Contents
 
@@ -107,12 +111,6 @@ git clone https://github.com/EOEPCA/um-buildingblock-template.git
 cd template-service
 ```
 
-### Testing
-
-- `./gradlew build` runs only the unit tests
-- `./gradlew integrationTest` runs only the integration tests (it compiles all source code beforehand). It does not package or deploy a build.
-  This is assumed to have been done in a prior build pipeline step.
-
 ## Documentation
 
 The component documentation can be found at https://eoepca.github.io/um-buildingblock-template/.
@@ -124,24 +122,6 @@ The component documentation can be found at https://eoepca.github.io/um-building
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
-
-### Running the template service
-
-Just execute the run task in Gradle
-
-```sh
-./gradlew run
-```
-
-### Upgrading Gradle Wrapper
-
-Change the version number in the `build.gradle` wrapper task then run:
-
-```sh
-./gradlew wrapper --gradle-version=4.10.2 --distribution-type=bin
-```
-
-<!-- ROADMAP -->
 
 ## Roadmap
 
@@ -165,34 +145,25 @@ Contributions are what make the open source community such an amazing place to b
 
 Distributed under the Apache-2.0 License. See `LICENSE` for more information.
 
-<!-- CONTACT -->
-
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+[EOEPCA mailbox](eoepca.systemteam@telespazio.com)
 
-Project Link: [https://github.com/EOEPCA/um-buildingblock-template](https://github.com/EOEPCA/um-buildingblock-template)
-
-<!-- ACKNOWLEDGEMENTS -->
+Project Link: [https://github.com/EOEPCA/um-pylibrary-template](https://github.com/EOEPCA/um-pylibrary-template)
 
 ## Acknowledgements
 
-- []()
-- []()
 - README.md is based on [this template](https://github.com/othneildrew/Best-README-Template) by [Othneil Drew](https://github.com/othneildrew).
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/EOEPCA/um-buildingblock-template.svg?style=flat-square
-[contributors-url]: https://github.com/EOEPCA/um-buildingblock-template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/EOEPCA/um-buildingblock-template.svg?style=flat-square
-[forks-url]: https://github.com/EOEPCA/um-buildingblock-template/network/members
-[stars-shield]: https://img.shields.io/github/stars/EOEPCA/um-buildingblock-template.svg?style=flat-square
-[stars-url]: https://github.com/EOEPCA/um-buildingblock-template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/EOEPCA/um-buildingblock-template.svg?style=flat-square
-[issues-url]: https://github.com/EOEPCA/um-buildingblock-template/issues
-[license-shield]: https://img.shields.io/github/license/EOEPCA/um-buildingblock-template.svg?style=flat-square
-[license-url]: https://github.com/EOEPCA/um-buildingblock-template/blob/master/LICENSE
-[build-shield]: https://www.travis-ci.com/EOEPCA/um-buildingblock-template.svg?branch=master
-[product-screenshot]: images/screenshot.png
+[contributors-shield]: https://img.shields.io/github/contributors/EOEPCA/um-pylibrary-template.svg?style=flat-square
+[contributors-url]: https://github.com/EOEPCA/um-pylibrary-template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/EOEPCA/um-pylibrary-template.svg?style=flat-square
+[forks-url]: https://github.com/EOEPCA/um-pylibrary-template/network/members
+[stars-shield]: https://img.shields.io/github/stars/EOEPCA/um-pylibrary-template.svg?style=flat-square
+[stars-url]: https://github.com/EOEPCA/um-pylibrary-template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/EOEPCA/um-pylibrary-template.svg?style=flat-square
+[issues-url]: https://github.com/EOEPCA/um-pylibrary-template/issues
+[license-shield]: https://img.shields.io/github/license/EOEPCA/um-pylibrary-template.svg?style=flat-square
+[license-url]: https://github.com/EOEPCA/um-pylibrary-template/blob/master/LICENSE
+[build-shield]: https://www.travis-ci.com/EOEPCA/um-pylibrary-template.svg?branch=master
