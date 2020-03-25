@@ -70,7 +70,7 @@
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`um-buildingblock-template`, `twitter_handle`, `email`
+`um-buildingblock-template`
 
 ### Built With
 
@@ -149,21 +149,21 @@ Distributed under the Apache-2.0 License. See `LICENSE` for more information.
 
 [EOEPCA mailbox](eoepca.systemteam@telespazio.com)
 
-Project Link: [https://github.com/EOEPCA/um-pylibrary-template](https://github.com/EOEPCA/um-pylibrary-template)
+Project Link: [https://github.com/EOEPCA/um-buildingblock-template](https://github.com/EOEPCA/um-buildingblock-template)
 
 ## Acknowledgements
 
 - README.md is based on [this template](https://github.com/othneildrew/Best-README-Template) by [Othneil Drew](https://github.com/othneildrew).
 
 
-[contributors-shield]: https://img.shields.io/github/contributors/EOEPCA/um-pylibrary-template.svg?style=flat-square
-[contributors-url]: https://github.com/EOEPCA/um-pylibrary-template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/EOEPCA/um-pylibrary-template.svg?style=flat-square
-[forks-url]: https://github.com/EOEPCA/um-pylibrary-template/network/members
-[stars-shield]: https://img.shields.io/github/stars/EOEPCA/um-pylibrary-template.svg?style=flat-square
-[stars-url]: https://github.com/EOEPCA/um-pylibrary-template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/EOEPCA/um-pylibrary-template.svg?style=flat-square
-[issues-url]: https://github.com/EOEPCA/um-pylibrary-template/issues
-[license-shield]: https://img.shields.io/github/license/EOEPCA/um-pylibrary-template.svg?style=flat-square
-[license-url]: https://github.com/EOEPCA/um-pylibrary-template/blob/master/LICENSE
-[build-shield]: https://www.travis-ci.com/EOEPCA/um-pylibrary-template.svg?branch=master
+[contributors-shield]: https://img.shields.io/github/contributors/EOEPCA/um-buildingblock-template.svg?style=flat-square
+[contributors-url]: https://github.com/EOEPCA/um-buildingblock-template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/EOEPCA/um-buildingblock-template.svg?style=flat-square
+[forks-url]: https://github.com/EOEPCA/um-buildingblock-template/network/members
+[stars-shield]: https://img.shields.io/github/stars/EOEPCA/um-buildingblock-template.svg?style=flat-square
+[stars-url]: https://github.com/EOEPCA/um-buildingblock-template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/EOEPCA/um-buildingblock-template.svg?style=flat-square
+[issues-url]: https://github.com/EOEPCA/um-buildingblock-template/issues
+[license-shield]: https://img.shields.io/github/license/EOEPCA/um-buildingblock-template.svg?style=flat-square
+[license-url]: https://github.com/EOEPCA/um-buildingblock-template/blob/master/LICENSE
+[build-shield]: https://www.travis-ci.com/EOEPCA/um-buildingblock-template.svg?branch=master
