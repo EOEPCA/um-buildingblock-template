@@ -1,7 +1,7 @@
 <!--
 ***
 *** To avoid retyping too much info. Do a search and replace for the following:
-*** template-svce, twitter_handle, email
+*** um-buildingblock-template
 -->
 
 <!-- PROJECT SHIELDS -->
@@ -21,7 +21,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/EOEPCA/template-svce">
+  <a href="https://github.com/EOEPCA/um-buildingblock-template">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -30,17 +30,21 @@
   <p align="center">
     Template for developing an EOEPCA Service
     <br />
-    <a href="https://github.com/EOEPCA/template-svce"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/EOEPCA/um-buildingblock-template"><strong>Explore the docs »</strong></a>
     <br />
-    <a href="https://github.com/EOEPCA/template-svce">View Demo</a>
+    <a href="https://github.com/EOEPCA/um-buildingblock-template">View Demo</a>
     ·
-    <a href="https://github.com/EOEPCA/template-svce/issues">Report Bug</a>
+    <a href="https://github.com/EOEPCA/um-buildingblock-template/issues">Report Bug</a>
     ·
-    <a href="https://github.com/EOEPCA/template-svce/issues">Request Feature</a>
+    <a href="https://github.com/EOEPCA/um-buildingblock-template/issues">Request Feature</a>
   </p>
 </p>
 
-<!-- TABLE OF CONTENTS -->
+## Setup for this template
+- Replace all "um-buildingblock-template" in readme with your repository's name
+- Edit docs to fit your repository
+- Un-comment the "notifications" segment in .travis.yml, and input the correct data for slack and/or emails you want to notify
+- Edit readme to fit your repository, and delete this part!
 
 ## Table of Contents
 
@@ -66,7 +70,7 @@
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`template-svce`, `twitter_handle`, `email`
+`um-buildingblock-template`, `twitter_handle`, `email`
 
 ### Built With
 
@@ -98,7 +102,7 @@ vagrant ssh
 3. Clone the repo
 
 ```sh
-git clone https://github.com/EOEPCA/template-svce.git
+git clone https://github.com/EOEPCA/um-buildingblock-template.git
 ```
 
 4. Change local directory
@@ -107,15 +111,9 @@ git clone https://github.com/EOEPCA/template-svce.git
 cd template-service
 ```
 
-### Testing
-
-- `./gradlew build` runs only the unit tests
-- `./gradlew integrationTest` runs only the integration tests (it compiles all source code beforehand). It does not package or deploy a build.
-  This is assumed to have been done in a prior build pipeline step.
-
 ## Documentation
 
-The component documentation can be found at https://eoepca.github.io/template-svce/.
+The component documentation can be found at https://eoepca.github.io/um-buildingblock-template/.
 
 <!-- USAGE EXAMPLES -->
 
@@ -125,27 +123,9 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-### Running the template service
-
-Just execute the run task in Gradle
-
-```sh
-./gradlew run
-```
-
-### Upgrading Gradle Wrapper
-
-Change the version number in the `build.gradle` wrapper task then run:
-
-```sh
-./gradlew wrapper --gradle-version=4.10.2 --distribution-type=bin
-```
-
-<!-- ROADMAP -->
-
 ## Roadmap
 
-See the [open issues](https://github.com/EOEPCA/template-svce/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/EOEPCA/um-buildingblock-template/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 
@@ -165,34 +145,25 @@ Contributions are what make the open source community such an amazing place to b
 
 Distributed under the Apache-2.0 License. See `LICENSE` for more information.
 
-<!-- CONTACT -->
-
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+[EOEPCA mailbox](eoepca.systemteam@telespazio.com)
 
-Project Link: [https://github.com/EOEPCA/template-svce](https://github.com/EOEPCA/template-svce)
-
-<!-- ACKNOWLEDGEMENTS -->
+Project Link: [https://github.com/EOEPCA/um-pylibrary-template](https://github.com/EOEPCA/um-pylibrary-template)
 
 ## Acknowledgements
 
-- []()
-- []()
 - README.md is based on [this template](https://github.com/othneildrew/Best-README-Template) by [Othneil Drew](https://github.com/othneildrew).
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/EOEPCA/template-svce.svg?style=flat-square
-[contributors-url]: https://github.com/EOEPCA/template-svce/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/EOEPCA/template-svce.svg?style=flat-square
-[forks-url]: https://github.com/EOEPCA/template-svce/network/members
-[stars-shield]: https://img.shields.io/github/stars/EOEPCA/template-svce.svg?style=flat-square
-[stars-url]: https://github.com/EOEPCA/template-svce/stargazers
-[issues-shield]: https://img.shields.io/github/issues/EOEPCA/template-svce.svg?style=flat-square
-[issues-url]: https://github.com/EOEPCA/template-svce/issues
-[license-shield]: https://img.shields.io/github/license/EOEPCA/template-svce.svg?style=flat-square
-[license-url]: https://github.com/EOEPCA/template-svce/blob/master/LICENSE
-[build-shield]: https://www.travis-ci.com/EOEPCA/template-svce.svg?branch=master
-[product-screenshot]: images/screenshot.png
+[contributors-shield]: https://img.shields.io/github/contributors/EOEPCA/um-pylibrary-template.svg?style=flat-square
+[contributors-url]: https://github.com/EOEPCA/um-pylibrary-template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/EOEPCA/um-pylibrary-template.svg?style=flat-square
+[forks-url]: https://github.com/EOEPCA/um-pylibrary-template/network/members
+[stars-shield]: https://img.shields.io/github/stars/EOEPCA/um-pylibrary-template.svg?style=flat-square
+[stars-url]: https://github.com/EOEPCA/um-pylibrary-template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/EOEPCA/um-pylibrary-template.svg?style=flat-square
+[issues-url]: https://github.com/EOEPCA/um-pylibrary-template/issues
+[license-shield]: https://img.shields.io/github/license/EOEPCA/um-pylibrary-template.svg?style=flat-square
+[license-url]: https://github.com/EOEPCA/um-pylibrary-template/blob/master/LICENSE
+[build-shield]: https://www.travis-ci.com/EOEPCA/um-pylibrary-template.svg?branch=master
